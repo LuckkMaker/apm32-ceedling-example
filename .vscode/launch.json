@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug with J-Link",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/Debug/test-firmware.elf", // Change the executable path
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "jlink",
+            "device": "APM32F405RG",
+            "interface": "swd",
+            "svdFile": "./svd/APM32F40x.svd",
+        },
+        {
+            "name": "Ceedling debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/build/test/out/test_gpio.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/test",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+              {
+                "description": "Enable pretty-printing for gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+              }
+            ]
+        }
+    ]
+}
+
