@@ -64,7 +64,7 @@ add_custom_target(test-all
 # ceedling gcov:all
 add_custom_target(test-coverage-report-html
     COMMAND ceedling gcov:all
-    COMMAND gcovr -r ${CMAKE_CURRENT_SOURCE_DIR} --html --html-details -o ${CMAKE_CURRENT_SOURCE_DIR}/build/artifacts/gcov/coverage.html
+    COMMAND gcovr -r ${CMAKE_CURRENT_SOURCE_DIR} --html --html-details -o ${CMAKE_CURRENT_SOURCE_DIR}/build/artifacts/gcov/index.html
     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/test
     COMMENT "Generating HTML coverage report"
 )
