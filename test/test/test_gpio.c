@@ -45,11 +45,6 @@ void tearDown(void)
     // Clean up after each test case
 }
 
-void test_main_need_to_implement(void)
-{
-    TEST_IGNORE_MESSAGE("Need to Implement main");
-}
-
 void test_DAL_GPIO_WritePin_SetLow(void)
 {
     DAL_GPIO_WritePin_Expect(GPIOE, GPIO_PIN_5, GPIO_PIN_RESET);
