@@ -6,11 +6,16 @@ The apm32-ceedling-example project is an example project that demonstrates how t
 
 The project contains a Ceedling test project that tests the APM32 application project. And can use the Ceedling cmock mocking to mock the APM32 DAL functions. The project also contains a Ceedling gcov code coverage that generates code coverage reports.
 
+![Ceedling Test Explorer](assets/ceedling-test-explorer.png)
+![Code Coverage Report](assets/code-coverage-report.png)
+![Code Branch Coverage Report](assets/code-branch-coverage-report.png)
+
 ## Features
 
-- Ceedling unity unit testing
-- Ceedling cmock mocking
-- Ceedling gcov code coverage
+- unity unit testing
+- cmock mocking
+- gcov code coverage
+- gcovr code coverage report
 - CMake build system
 - CMake Presets
 - CMake custom command
@@ -41,6 +46,7 @@ The project contains a Ceedling test project that tests the APM32 application pr
 - [Ceedling](https://github.com/ThrowTheSwitch/Ceedling)
 - [CMake](https://cmake.org/)
 - [GNU Arm Embedded Toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm)
+- [gcovr](https://gcovr.com/en/stable/)
 
 ## Recommended Tools
 
