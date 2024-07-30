@@ -53,6 +53,8 @@ The project contains a Ceedling test project that tests the APM32 application pr
 - [J-Link Software and Documentation Pack](https://www.segger.com/downloads/jlink/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Ceedling Test Explorer](https://marketplace.visualstudio.com/items?itemName=numaru.vscode-ceedling-test-adapter)
+- [Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer)
+- [Test Adapter Converter](https://marketplace.visualstudio.com/items?itemName=ms-vscode.test-adapter-converter)
 - [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
 - [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
 
